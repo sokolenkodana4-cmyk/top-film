@@ -107,3 +107,24 @@ footer {
     display: flex;
     gap: 10px;
 }
+ 
+#shareBtn {
+    margin: 15px auto;
+    padding: 12px 20px;
+    background-color: #f9c74f;
+    color: #1b262c;
+    border: 2px solid #f48c06;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#shareBtn:hover,
+#shareBtn:active {
+    background-color: #f9c74f;
+    transform: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
